@@ -474,4 +474,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   max-height: 100vh;
   height: 100%;
   flex-direction: column;
-`,G3=()=>(k3(),ae.jsxs(P3,{children:[ae.jsx(B3,{}),ae.jsx(vw,{backend:WS.isMobile?bT:oT,children:ae.jsx(VE,{})}),ae.jsx(q3,{})]}));P1.createRoot(document.getElementById("root")).render(ae.jsx(P.StrictMode,{children:ae.jsx(XS,{theme:Pb,children:ae.jsx(G3,{})})}));
+`,G3=()=>(k3(830,`
+    Your screen is too small to use this app comfortably.
+    This application is optimized for larger displays with a minimum width of 830 pixels.
+    For the best experience, please switch to a tablet, laptop, or desktop device.
+  `),ae.jsxs(P3,{children:[ae.jsx(B3,{}),ae.jsx(vw,{backend:WS.isMobile?bT:oT,children:ae.jsx(VE,{})}),ae.jsx(q3,{})]}));P1.createRoot(document.getElementById("root")).render(ae.jsx(P.StrictMode,{children:ae.jsx(XS,{theme:Pb,children:ae.jsx(G3,{})})}));
