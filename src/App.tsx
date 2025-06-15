@@ -17,7 +17,11 @@ const Wrapper = styled.div`
 `;
 
 export const App: React.FC = () => {
-  useViewportGuard();
+  useViewportGuard(830,`
+    Your screen is too small to use this app comfortably.
+    This application is optimized for larger displays with a minimum width of 830 pixels.
+    For the best experience, please switch to a tablet, laptop, or desktop device.
+  `);
 
   return (
     <Wrapper>
